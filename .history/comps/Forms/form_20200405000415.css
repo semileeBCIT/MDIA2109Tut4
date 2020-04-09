@@ -1,0 +1,13 @@
+form{
+    margin: 5px;
+}
+
+
+form input {
+    display:block;
+    
+}
+
+button {
+    margin-top: 10px;
+}
