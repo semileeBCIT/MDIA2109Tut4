@@ -4,7 +4,6 @@ import Header from '../comps/Header';
 import Form from '../comps/Forms';
 import Input from '../comps/Input';
 import Chat from '../comps/Chat';
-import ChatPage from '../pages/ChatPage';
 
 export default {
     title:"My comps",
@@ -31,8 +30,6 @@ export const MyInputWithPlaceholder = () => <Input
     placeholder="Custom placeholder"
 />;
 export const MyChat = () => <Chat />;
-
-export const MyChatPage = () => <ChatPage />;
 
 export const MyForm = () => <Form />;
 

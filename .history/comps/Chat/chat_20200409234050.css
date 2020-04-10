@@ -1,10 +1,8 @@
 .chat_card{
-    background-color: #eee;
-    color: #666;
+    background-color: #000;
     display: inline-flex;
     flex-direction: column;
     padding: 10px;
-    border-radius: 10px;
 }
 
 .chat_user{

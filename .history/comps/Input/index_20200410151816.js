@@ -15,7 +15,6 @@ const Input = ({placeholder, onclick}) => {
     }} text="send" color="#58F"/>
   </div>;
 }
-
 Input.defaultProps = {
     placeholder:"Type your chat here!",
     onClick:()=>{}

@@ -1,6 +1,5 @@
 .chat_card{
-    background-color: #eee;
-    color: #666;
+    background-color: #ddd;
     display: inline-flex;
     flex-direction: column;
     padding: 10px;

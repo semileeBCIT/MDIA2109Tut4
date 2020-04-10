@@ -11,14 +11,13 @@ const Input = ({placeholder, onclick}) => {
      }} type='text' placeholder={placeholder} />
     <CustomButton onclick={()=>{
      // alert(val);
-      onClick(val);
+      onclick(val);
     }} text="send" color="#58F"/>
   </div>;
 }
-
 Input.defaultProps = {
     placeholder:"Type your chat here!",
-    onClick:()=>{}
+    onclick:()=>{}
 }
 
 export default Input;

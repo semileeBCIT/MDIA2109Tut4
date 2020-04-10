@@ -32,8 +32,6 @@ export const MyInputWithPlaceholder = () => <Input
 />;
 export const MyChat = () => <Chat />;
 
-export const MyChatPage = () => <ChatPage />;
-
 export const MyForm = () => <Form />;
 
 // export const PageWithCustomButtons = () => <div>

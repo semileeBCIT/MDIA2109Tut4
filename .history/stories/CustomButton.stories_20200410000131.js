@@ -32,7 +32,7 @@ export const MyInputWithPlaceholder = () => <Input
 />;
 export const MyChat = () => <Chat />;
 
-export const MyChatPage = () => <ChatPage />;
+export const MyChat = () => <ChatPage />;
 
 export const MyForm = () => <Form />;
 
