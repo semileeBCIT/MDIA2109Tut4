@@ -2,14 +2,14 @@ import React, {useState} from 'react';
 import './input.css';
 import CustomButton from '../CustomButton';
 
-const Input = ({placeholder, onClick}) => {
+const Input = ({placeholder, onclick}) => {
   const [val, setVal] = useState("");
 
   return <div className="input_cont">
     <input onChange={(e)=>{
       setVal(e.target.value)
      }} type='text' placeholder={placeholder} />
-    <CustomButton onClick={()=>{
+    <CustomButton onclick={()=>{
      // alert(val);
       onClick(val);
     }} text="send" color="#58F"/>

@@ -17,12 +17,10 @@ const ChatPage = ({}) => {
     const [welcome, setWelcome] = useState("Welcome to my App!");
     const [msg, setMsg] = useState("Pls type something!");
     const [resp, setResp] = useState("Let me respond to you!");
-    const [color, setColor] = useState("#DDD");
-    const [text, setText] = useState("default");
 
     return <div>
         <div id="welcome">
-            <Header fontSize={32} text={welcome} />
+            <Header fontSize={32} text="Welcome to my App!" />
         </div>
         <div id="chats" onClick={()=>{
             setWelcome("Start with sending a message.");
@@ -40,13 +38,6 @@ const ChatPage = ({}) => {
                     setResp("I love pie");
                 }*/
             }}/>
-        </div>
-        <div id="custom_button" onClick={()=>{
-            setText("button change")
-            setColor("#DAB")
-        }}>
-            {/* When the button is clicked, setColor to another color, and setText to another text */}
-            <CustomButton color={color} text={text} />
         </div>
     </div>
 }

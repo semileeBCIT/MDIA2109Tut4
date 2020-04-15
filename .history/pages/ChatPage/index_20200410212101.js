@@ -43,7 +43,6 @@ const ChatPage = ({}) => {
         </div>
         <div id="custom_button" onClick={()=>{
             setText("button change")
-            setColor("#DAB")
         }}>
             {/* When the button is clicked, setColor to another color, and setText to another text */}
             <CustomButton color={color} text={text} />
