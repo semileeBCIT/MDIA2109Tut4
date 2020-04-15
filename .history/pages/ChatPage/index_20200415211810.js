@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React, {useState} from 'react';
 import './chatpage.css';
 import Chat from '../../comps/Chat';
 import CustomButton from '../../comps/CustomButton';
@@ -19,13 +19,6 @@ const ChatPage = ({}) => {
     const [resp, setResp] = useState("Let me respond to you!");
     const [color, setColor] = useState("#DDD");
     const [text, setText] = useState("default");
-
-    useEffect(()=>{
-        setTimeout(()=>{
-            document.querySelector("#chatpage").style.left = 0;
-        }, 50)
-       
-    }, []);
 
     return <div id="chatpage">
         <div id="welcome">

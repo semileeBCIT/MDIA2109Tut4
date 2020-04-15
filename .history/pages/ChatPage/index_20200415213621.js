@@ -22,7 +22,7 @@ const ChatPage = ({}) => {
 
     useEffect(()=>{
         setTimeout(()=>{
-            document.querySelector("#chatpage").style.left = 0;
+            document.querySelector("#chatpage").getElementsByClassName.left = 0;
         }, 50)
        
     }, []);

@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React, {useState} from 'react';
 import './chatpage.css';
 import Chat from '../../comps/Chat';
 import CustomButton from '../../comps/CustomButton';
@@ -20,14 +20,7 @@ const ChatPage = ({}) => {
     const [color, setColor] = useState("#DDD");
     const [text, setText] = useState("default");
 
-    useEffect(()=>{
-        setTimeout(()=>{
-            document.querySelector("#chatpage").style.left = 0;
-        }, 50)
-       
-    }, []);
-
-    return <div id="chatpage">
+    return <div>
         <div id="welcome">
             <Header fontSize={32} text={welcome} />
         </div>
