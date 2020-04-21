@@ -28,10 +28,6 @@ const Contact = () => {
             // document.querySelector("#contact").style.left = 0;
             setLeft(0);
         }, 50)
-
-        return ()=>{
-            //what to do when the component dies
-        }
        
     }, []);
 
@@ -39,18 +35,7 @@ const Contact = () => {
         //what to do when it's created/born/beginning of the life cycle
     },[]);
 
-    useEffect(()=>{
-        //what to do shen a stae in the page/component updates
-        //alert("Hi! Header text has changed")
-        setLeft(20);
-        setTimeout(()=>{
-            setLeft(0);
-        }, 500)
-    },[header_text]);
-
-    useEffect(()=>{
-        setHeader("Changed");
-    }, [pageleft])
+   
 
     //step 2 - connect the state variable to the UI
     return <div id="contact" style={{left:pageleft}}>
